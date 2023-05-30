@@ -6,7 +6,7 @@ Qwatchはお客様のサービスにカメラの映像等をご活用いただ�
  
 ![fig_control-diagram_pc](https://user-images.githubusercontent.com/60957010/180181821-323529f4-df62-4656-98e8-c8b98869da9e.svg)
 ## API仕様について
-- docの[QwatchAPI_Specification.html]()をご確認ください  
+- docの[QwatchAPI_Specification.html](https://iodata-solution.github.io/qwatch-api/QwatchAPI_Specification.html)をご確認ください  
 ## ユーザー登録について
 [弊社ダウンロードページ](https://contact.iodata.jp/webentry/enq/form/apidl)にてユーザー情報の登録のご協力をお願いいたします。特に商用利用の際には原則登録をお願いいたします。
 ご登録頂くことでAPIのアップデート情報等をメールでご案内します。また、ユーザー登録から後の案内からもAPI仕様書をダウンロードできます。その際も[LICENSE](./LICENSE)の使用許諾が適用されますのでご了承ください。
