@@ -6,6 +6,7 @@
 #include <windows.h>
 #include <CommCtrl.h>
 
+
 class SendData_Proc
 {
 public:

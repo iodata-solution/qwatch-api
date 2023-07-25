@@ -194,7 +194,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		PostQuitMessage(0);
 		break;
 	default:
-		//ウィンドウの破棄
+		//ウィンドウの破棄//
 		return DefWindowProc(hWnd, message, wParam, lParam);
 		break;
 	}

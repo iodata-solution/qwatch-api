@@ -19,7 +19,7 @@ void SendData_Proc::Send_Data(SOCKET* sock, CString filename) {
 	bool  exitthread = false;
 	char  file_path[128];
 
-	//音声ファイルパスの作成
+	//音声ファイルパスの作成//
 	memset(file_path, 0, sizeof(file_path));
 	WideCharToMultiByte(CP_ACP, 0, filename, -1, file_path, sizeof(file_path), NULL, NULL);
 
