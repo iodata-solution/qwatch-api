@@ -3,10 +3,7 @@ name: Release Drafter
 on:
   push:
     branches:
-      - 'release/**'
-  create:
-    branches:
-      - 'release/**'
+      - 'main'
   pull_request:
     types: [opened, reopened]
 
