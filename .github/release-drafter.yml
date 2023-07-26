@@ -1,0 +1,63 @@
+name-template: 'v$RESOLVED_VERSION 🌈'
+tag-template: 'v$RESOLVED_VERSION'
+
+categories:
+  - title: '🚀 機能追加'
+    labels:
+      - 'feature'
+  - title: '💪 機能拡張'
+    labels:
+      - 'improve'
+  - title: '🐛 不具合修正'
+    labels:
+      - 'fix'
+  - title: '🧰 メンテナンス'
+    labels:
+      - 'refactor'
+  - title: '📚 情報追加'
+    labels:
+      - 'info'
+
+exclude-labels:
+  - 'skip'
+
+change-template: |
+  ### $TITLE
+  $BODY
+change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
+
+version-resolver:
+  major:
+    labels:
+      - 'major'
+  minor:
+    labels:
+      - 'minor'
+  patch:
+    labels:
+      - 'patch'
+  default: patch
+
+template: |
+  ## 変更履歴
+  $CHANGES
+autolabeler:
+  - label: feature
+    branch:
+      - '/feature[/-].+/'
+  - label: fix
+    branch:
+      - '/fix[/-].+/'
+  - label: refactor
+    branch:
+      - '/refactor[/-].+/'
+  - label: improve
+    branch:
+      - '/improve[/-].+/'
+  - label: skip
+    branch:
+      - '/skip[/-].+/'
+      - '/release[/-].+/'
+  - label: info
+    branch:
+      - '/info[/-].+/'
