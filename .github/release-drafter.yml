@@ -12,10 +12,10 @@ categories:
     labels:
       - 'fix'
   - title: '🧰 メンテナンス'
-    label:
+    labels:
       - 'refactor'
   - title: '📚 情報追加'
-    label:
+    labels:
       - 'info'
 
 exclude-labels:
