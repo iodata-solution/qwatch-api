@@ -12,7 +12,11 @@ categories:
     labels:
       - 'fix'
   - title: '🧰 メンテナンス'
-    label: 'refactor'
+    label:
+      - 'refactor'
+  - title: '📚 情報追加'
+    label:
+      - 'info'
 
 exclude-labels:
   - 'skip'
@@ -54,3 +58,6 @@ autolabeler:
     branch:
       - '/skip[/-].+/'
       - '/release[/-].+/'
+  - label: info
+    branch:
+      - '/info[/-].+/'
