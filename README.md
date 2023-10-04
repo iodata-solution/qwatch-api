@@ -12,16 +12,16 @@ Qwatchはお客様のサービスにカメラの映像等をご活用いただ�
 ご登録頂くことでAPIのアップデート情報等をメールでご案内します。また、ユーザー登録から後の案内からもAPI仕様書をダウンロードできます。その際も[LICENSE](./LICENSE)の使用許諾が適用されますのでご了承ください。
  
 ## API対応製品
-- TS-WRLP
-- TS-WRFE
-- TS-WRLC
-- TS-NS410W
-- TS-NS310W
-- TS-NA230WP
-- TS-NA220W
-- TS-NA220
-- TS-NS210
-- TS-NS110W
+・TS-NA230WP
+・TS-NS410W
+・TS-NS310W
+・TS-NA220W
+・TS-NA220
+・TS-NS210
+・TS-NS110W
+・TS-WRLP
+・TS-WRFE
+・TS-WRLC
  
 ## APIのご利用にあたって
 本API仕様は、弊社製品をご購入いただいたお客さまでネットワークの基本知識を有した方向けに、当該製品のAPIコマンドによる制御について説明するための資料です。
